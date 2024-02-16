@@ -1,0 +1,15 @@
+:root {
+	--primaryColor--: #3a0ca3;
+	--color1--: #4361ee;
+	--color2--: #4cc9f0;
+	--color3--: #7209b7;
+	--color4--: #f72585;
+	--color5--: #fff;
+
+	/* Text Colors */
+	--textColor1--: #0b090a;
+	--textColor2--: #2b2b2b;
+	--textColor3--: #808080;
+	--textColor4--: #aaaaaa;
+	--textColor5--: #d4d4d4;
+}

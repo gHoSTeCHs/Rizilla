@@ -1,0 +1,38 @@
+.imgCar {
+	max-width: 100%;
+	box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+
+.imgSection {
+	position: relative;
+}
+
+.slid {
+	position: absolute;
+	top: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	padding: 14px 17px;
+	border-radius: 50%;
+	box-shadow: 4px 10px 30px 0 rgba(0, 0, 0, 0.1);
+	background-color: var(--color5--);
+}
+
+.slid:hover {
+	background-color: var(--textColor5--);
+	transform: scale(1.05);
+	transition: all ease-in 300ms;
+}
+
+.right {
+	bottom: 50%;
+	right: 35%;
+}
+
+.left {
+	left: -2%;
+}

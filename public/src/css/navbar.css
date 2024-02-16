@@ -1,0 +1,25 @@
+.navBar {
+	background-color: var(--color5--);
+	padding: 1rem 0;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: 2fr 3fr;
+	position: relative;
+}
+
+.navigation,
+.links,
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation {
+	gap: 16px;
+}
+
+.profile {
+	gap: 10px;
+}

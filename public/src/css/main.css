@@ -1,0 +1,165 @@
+@import 'variables.css';
+/* @import 'mobile.css'; */
+
+/* Box sizing rules */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+	line-height: 1.1;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+	color: currentColor;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+	min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+	scroll-margin-block: 5ex;
+}
+
+body {
+	background: url('../desktopBackGround.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--color--);
+	min-height: 100vh;
+	line-height: 1.5;
+	background-size: cover;
+}
+
+/* Container */
+.container {
+	margin: 0 auto;
+	max-width: 1240px;
+	padding: 0 1rem;
+}
+.container2 {
+	margin: 0 auto;
+	max-width: 1120px;
+}
+
+/* Template */
+
+.hamburger {
+	display: none;
+}
+
+.headerText {
+	font-size: 1.21rem;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 2.91px;
+	color: var(--color1--);
+}
+
+.introTxt {
+	font-weight: 600;
+	line-height: 1.13;
+	font-size: 3.58125rem;
+	color: var(--textColor1--);
+}
+
+.generalP {
+	font-weight: normal;
+	font-stretch: normal;
+	font-size: 1rem;
+	font-style: normal;
+	line-height: 1.63;
+	letter-spacing: normal;
+	color: var(--textColor3--);
+}
+
+.custom {
+	font-size: 1.21rem;
+	color: var(--textColor2--);
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
+
+.introTxt2 {
+	font-size: 2.4875rem;
+	line-height: 1.18;
+	font-weight: 600;
+	font-stretch: normal;
+	letter-spacing: normal;
+	font-style: normal;
+}
