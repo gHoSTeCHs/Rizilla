@@ -23,9 +23,15 @@
 	.profile {
 		gap: 5px;
 	}
-
 	.navigation {
 		gap: 10px;
+	}
+	.sec3Contents {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.sec3Con1 {
+		max-width: 100%;
 	}
 }
 

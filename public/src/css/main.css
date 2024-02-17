@@ -163,3 +163,12 @@ body {
 	letter-spacing: normal;
 	font-style: normal;
 }
+
+.rectHead {
+	font-size: 1.21rem;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+}
